@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Jumble word</string>
+    <string name="play">Play</string>
+    <string name="try_mag">Try: </string>
+    <string name="level_1">level 1</string>
+
+    <string name="rules">This game is realy easy to understand <br/>
+    you have six levels with 10 words by level. In each level you have a precise number of try and a precise number of letter to each word.<br/>
+        The level 1 is easiest than the level 2 and so on…<br/>
+        Level l : 10 tries and each word has 3 letters<br/>
+        level 2 : 8 tries and each word has 4 letters<br/>
+        and so on until <br/>
+        level 6 = 1 tries and each word has 8 letters<br/><br/>
+
+        Enjoy !<br/>
+    </string>
+    <string name="settings">Settings</string>
+</resources>

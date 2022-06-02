@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#38896CCF"
+
+    tools:context=".map">
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="411dp"
+        android:layout_height="422dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".map" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="411dp"
+        android:layout_height="304dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/map">
+
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/course" />
+
+        <Button
+            android:id="@+id/stop"
+            android:layout_width="183dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="#38896CCF"
+            android:fontFamily="@font/bevan"
+            android:foregroundTint="#5BA7E4"
+            android:includeFontPadding="false"
+            android:onClick="onClick"
+            android:text="Stop"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:cornerRadius="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/timer" />
+
+        <Button
+            android:id="@+id/pause"
+            android:layout_width="183dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="13dp"
+            android:backgroundTint="#38896CCF"
+            android:fontFamily="@font/bevan"
+            android:foregroundTint="#5BA7E4"
+            android:includeFontPadding="false"
+            android:onClick="onClick"
+            android:text="Pause"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:cornerRadius="30dp"
+            app:layout_constraintEnd_toStartOf="@+id/stop"
+            app:layout_constraintTop_toBottomOf="@+id/timer" />
+
+        <Chronometer
+            android:id="@+id/timer"
+            android:layout_width="241dp"
+            android:layout_height="93dp"
+            android:layout_marginEnd="64dp"
+            android:layout_marginBottom="192dp"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

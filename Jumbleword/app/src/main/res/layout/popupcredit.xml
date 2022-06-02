@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back10">
+
+    <TextView
+        android:id="@+id/jum5"
+        android:layout_width="247dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="84dp"
+        android:fontFamily="@font/knewave"
+        android:gravity="center"
+        android:text="Credits"
+        android:textColor="#738c93"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/close3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/close" />
+
+    <TextView
+        android:id="@+id/jum"
+        android:layout_width="247dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/knewave"
+        android:text="Jumble Game"
+        android:textColor="#738c93"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/exp"
+        android:layout_width="322dp"
+        android:layout_height="182dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/knewave"
+        android:gravity="center"
+        android:text=" Game : Manon Jacquet \n project made in school context (Mobile development) \n requested by Eugene O'Regan \n\n Music : Manon Jacquet"
+        android:textColor="#738c93"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jum5" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="18dp"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

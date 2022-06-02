@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back4"
+    tools:context=".Find">
+
+    <TextView
+        android:id="@+id/anagram2"
+        android:layout_width="277dp"
+        android:layout_height="139dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/knewave"
+        android:gravity="center"
+        android:text="Guess the \n word :"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:cornerRadius="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/anagram"
+        android:layout_width="229dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/knewave"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:cornerRadius="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/anagram2" />
+
+    <EditText
+        android:id="@+id/tryword"
+        android:layout_width="206dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="96dp"
+        android:ems="10"
+        android:hint="Find the word !"
+        android:inputType="textPersonName"
+        android:textAllCaps="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/anagram" />
+
+    <Button
+        android:id="@+id/valid"
+        android:layout_width="231dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="90dp"
+        android:backgroundTint="#3862C1EC"
+        android:fontFamily="@font/knewave"
+        android:foregroundTint="#5BA7E4"
+        android:text="Validate"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tryword" />
+
+    <TextView
+        android:id="@+id/tryw"
+        android:layout_width="92dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/knewave"
+        android:text="@string/try_mag"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="37dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/abc_vector_test" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

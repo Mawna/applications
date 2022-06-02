@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">Slangtranslater</string>
+    <string name="translate">English to French</string>
+    <string name="translate2">French to English</string>
+    <string name="bloke">Bloke</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="french_translation">French Translation</string>
+
+    <string-array name="English_word">
+
+        <item>Bevvy</item>
+        <item>Bloke</item>
+        <item>Bonkers</item>
+        <item>Daft</item>
+        <item>Dodgy</item>
+        <item>Gobsmacked</item>
+        <item>Knackered</item>
+        <item>Quid</item>
+        <item>To leg it</item>
+        <item>Trollied </item>
+
+
+    </string-array>
+
+    <string-array name="French_word2">
+
+        <item>C\'est l\'abréviation du mot «boissons», généralement alcoolisées, le plus souvent de la bière,
+            \n\nArgot Français : Binouze  </item>
+
+        <item>Argot Français : Mon gars / mec </item>
+        <item>  Argot Français : ouf / dingue </item>
+        <item> Etre un peu bête
+            \n\nArgot francais : Il a pas inventé l\'eau chaude </item>
+        <item>Utiliser pour décrire quelqu\'un d\'un peu étrange
+            \n\nArgot Français : louche/chelou</item>
+        <item>Etre surpris ou choqué par quelque chose
+            \n\nArgot français : choqué, bouche bée, être sur le cul </item>
+        <item>C\'est utilisé lorsque quelqu\'un est extrêmement fatigué
+           \n\nArgot Français : être crevé, être éclaté </item>
+        <item>argrot britanique pour dire livre/argent
+            \n\nArgot Français : fric, tunes  </item>
+
+        <item> s\'enfuire, s\'échaper
+            \n\nArgot Français : se tirer, se barer </item>
+        <item>Description familère pour dire qu une personne est saoule
+           \n\nArgot Français : Bourré, se mettre une race</item>
+
+
+    </string-array>
+
+    <string-array name="French_word">
+
+        <item> Binouze  </item>
+        <item> Mec </item>
+        <item> Dingue </item>
+        <item> Bête </item>
+        <item>Louche</item>
+        <item>Choqué</item>
+        <item> Être crevé </item>
+        <item> Fric  </item>
+        <item>S\'échaper </item>
+        <item> Bourré</item>
+
+    </string-array>
+
+
+    <string-array name="Frenchslang_word">
+
+        <item> A dweeb </item>
+        <item> Grub </item>
+        <item> Ossified </item>
+        <item> hit the hay </item>
+        <item> cop </item>
+        <item> Brother </item>
+        <item> clobber. </item>
+        <item>Beour </item>
+        <item>Buddy </item>
+        <item>Job</item>
+
+
+    </string-array>
+
+    <string-array name="Englexplain3">
+
+        <item> A man of little education, vulgar, narrow-minded \nSlang english word : </item>
+        <item> Food slang french word, often use to talk about fast food for instance \n\nSlang english word : Grub </item>
+        <item> Someone who is realy drunk \n\nSlang english word : Ossified</item>
+        <item> It is a noun and not a verb and it is difficult to translate but it is mean \"go to sleep/ to the bed\" </item>
+        <item>A policeman \nSlang english word : </item>
+        <item> like brother but in slang version \n\nSlang english word : Bro </item>
+        <item> It is clothes \n\nSlang english word : clobber  </item>
+        <item> It is woman but upside down / backward \nSlang english word : Beour  </item>
+        <item> It is a friend but not the clother just someone you know since a short time \n\nSlang english word : Buddy </item>
+        <item> Can be tranlate by work \n\nSlang english word : Job </item>
+
+    </string-array>
+
+    <string-array name="English_wordtrad">
+
+        <item>Beaufs</item>
+        <item>Bouffe </item>
+        <item>Bourré </item>
+        <item>Dodo </item>
+        <item>Flic  </item>
+        <item>Frangin </item>
+        <item>Fringue</item>
+        <item> Meuf </item>
+        <item> Pote </item>
+        <item> Le taf </item>
+
+    </string-array>
+
+
+</resources>

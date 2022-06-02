@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back10">
+
+    <ImageButton
+        android:id="@+id/close2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/close" />
+
+    <TextView
+        android:id="@+id/jum"
+        android:layout_width="247dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/knewave"
+        android:text="Jumble Game"
+        android:textColor="#738c93"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toStartOf="@+id/close2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/jum6"
+        android:layout_width="247dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="68dp"
+        android:fontFamily="@font/knewave"
+        android:gravity="center"
+        android:text="Rules"
+        android:textColor="#738c93"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/exp"
+        android:layout_width="311dp"
+        android:layout_height="410dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="61dp"
+        android:fontFamily="@font/knewave"
+        android:gravity="center"
+        android:text="This game is really easy to understand \n
+    There are six levels with 10 words by level. In each level there is a limited number of try and a precise number of letter to each word.\n
+    The level 1 is the easiest than the level 2 and so on…\n
+    Level l : 10 tries and each word has 3 letters\n
+    level 2 : 8 tries and each word has 4 letters\n
+    and so on until \n
+    level 6 = 1 try and each word has 8 letters\n\n
+
+    Enjoy !"
+        android:textColor="#738c93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jum" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

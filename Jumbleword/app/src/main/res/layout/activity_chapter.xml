@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3"
+    tools:context=".MainActivity"
+    tools:ignore="MissingClass">
+
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="247dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/knewave"
+        android:text="Jumble Game"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="345dp"
+        android:layout_height="461dp"
+
+        android:layout_marginTop="124dp"
+        android:foregroundTint="#2B2B2B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".Chapter">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/lv1"
+                android:layout_width="250dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="3dp"
+                android:backgroundTint="#62C1EC"
+                android:fontFamily="@font/knewave"
+                android:foregroundTint="#5BA7E4"
+                android:text="@string/level_1"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:cornerRadius="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/setting" />
+
+            <Button
+                android:id="@+id/lv2"
+                android:layout_width="250dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#62C1EC"
+                android:fontFamily="@font/knewave"
+                android:foregroundTint="#5BA7E4"
+                android:text="level 2"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:cornerRadius="30dp"
+                app:iconTint="@color/blue"
+                app:strokeColor="#5ED4F8" />
+
+            <Button
+                android:id="@+id/lv3"
+                android:layout_width="250dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#62C1EC"
+                android:fontFamily="@font/knewave"
+                android:foregroundTint="#5BA7E4"
+                android:text="level 3"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:cornerRadius="30dp"
+                app:iconTint="@color/blue"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/setting"
+                app:strokeColor="#5ED4F8" />
+
+            <Button
+                android:id="@+id/lv4"
+                android:layout_width="250dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#62C1EC"
+                android:fontFamily="@font/knewave"
+                android:foregroundTint="#5BA7E4"
+                android:text="level 4"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:cornerRadius="30dp"
+                app:iconTint="@color/blue"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/setting"
+                app:strokeColor="#5ED4F8" />
+
+            <Button
+                android:id="@+id/lv5"
+                android:layout_width="250dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#62C1EC"
+                android:fontFamily="@font/knewave"
+                android:foregroundTint="#5BA7E4"
+                android:text="level 5"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:cornerRadius="30dp"
+                app:iconTint="@color/blue"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/setting"
+                app:strokeColor="#5ED4F8" />
+
+            <Button
+                android:id="@+id/lv6"
+                android:layout_width="250dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#62C1EC"
+                android:fontFamily="@font/knewave"
+                android:foregroundTint="#5BA7E4"
+                android:text="level 6"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:cornerRadius="30dp"
+                app:iconTint="@color/blue"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/setting"
+                app:strokeColor="#5ED4F8" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/back1"
+        android:layout_width="37dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/abc_vector_test" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
